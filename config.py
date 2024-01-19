@@ -8,5 +8,4 @@ data_dict = dict(WIDTH=600, HEIGHT=600, POS_X1=150.00, POS_X2=- 150.00, POS_Y=26
                  STARTING_POSITION=(0, -280), FINISH_LINE_Y=280, COLORS={'red': '#FF2171', 'pink': '#EDB7ED',
                                                                          'yellow': '#ECEE81', 'green': '#A6FF96',
                                                                          'blue': '#0079FF', 'purple': '#E1AEFF'},
-                 STARTING_MOVE_DISTANCE=5,
                  MOVE_INCREMENT=10, SCORE_COLOR="white")

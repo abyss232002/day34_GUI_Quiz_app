@@ -18,6 +18,7 @@ class QuizBrain:
         # print("Inside has_question")
         # print(f"self.question_number:{self.question_number}")
         # print(f"len(self.question_list):{len(self.question_list)}")
+        # todo: added line for git testing
         return self.question_number < len(self.question_list)
 
     def check_answer(self, usr_answer: str) -> bool:

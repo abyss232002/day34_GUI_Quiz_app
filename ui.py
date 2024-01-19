@@ -47,7 +47,7 @@ class QuizInterface():
         else:
             # todo: exist criteria.commented out is Angela's solution
             self.canvas.itemconfig(self.quiz_question, text='That is all for now')
-            # self.true_button.config(state='disabled')
+            # self.true_button.config(state='disabled') !!!
             # self.false_button.config(state='disabled')
             messagebox.showinfo(title="That's all for now", message=f"You scored:{self.quiz_deck.usr_point} Out of:{self.quiz_deck.question_number}")
             exit()
