@@ -10,7 +10,7 @@ new_q_list = []
 # todo:create data object to get question_data from opentdb,defualt number of question 10,default type boolean(True/False)
 data = Data(amount=10,category=27,difficulty='easy')
 #print(data.question_data)
-print('Testing Git and Github')
+# print('Testing Git and Github')  # commenting as the testing is done
 for i in range(len(data.question_data)):
     new_q = Question(q_text=data.question_data[i]['question'], q_answer=data.question_data[i]['correct_answer'])
     new_q_list.append(new_q)
